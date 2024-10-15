@@ -17,4 +17,6 @@
             <block name="free_shipping" class="Magento\Framework\View\Element\Template" template="Magento_Theme::free_shipping.phtml"/>
         </referenceContainer>
        </body>
+
+       <move element="form.subscribe" destination="content" after="-" />
 </page>
