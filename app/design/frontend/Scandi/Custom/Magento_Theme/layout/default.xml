@@ -8,5 +8,13 @@
                 <argument name="logo_width" xsi:type="string">200</argument>
             </arguments>
         </referenceBlock>
+
+        <referenceContainer name="header.panel">
+            <container name="free_shipping.container" htmlTag="div" htmlClass="free-shipping-container" before="-"/>
+        </referenceContainer >
+
+        <referenceContainer name="free_shipping.container">
+            <block name="free_shipping" class="Magento\Framework\View\Element\Template" template="Magento_Theme::free_shipping.phtml"/>
+        </referenceContainer>
        </body>
 </page>
