@@ -14,7 +14,10 @@
         </referenceContainer >
 
         <referenceContainer name="free_shipping.container">
-            <block name="free_shipping" class="Magento\Framework\View\Element\Template" template="Magento_Theme::free_shipping.phtml"/>
+            <block name="free_shipping" 
+            class="Magento\Framework\View\Element\Template" 
+            template="Magento_Theme::free_shipping.phtml" 
+            ifconfig="carriers/freeshipping/active"/>
         </referenceContainer>
        </body>
 
